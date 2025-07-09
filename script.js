@@ -65,7 +65,7 @@ function flushOperation(intBuffer){
         runningTotal += intBuffer;
     }else if(previousOperator === '−'){
         runningTotal -= intBuffer;
-    }else if(previousOperator === 'x'){
+    }else if(previousOperator === '×'){
         runningTotal *= intBuffer;
     }else if(previousOperator === '÷'){
         runningTotal /= intBuffer;
