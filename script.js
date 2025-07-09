@@ -26,7 +26,7 @@ function handleSymbol(symbol){
                 }
                 flushOperation(parseInt(buffer));
                 previousOperator = null;
-                buffer = runningTotal;
+                buffer = runningTotal.toString();
                 runningTotal = 0;
                 break;
             case '←':
